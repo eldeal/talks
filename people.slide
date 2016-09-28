@@ -1,0 +1,194 @@
+Go for your Organisation
+Cardiff Go Meetup - Google Developer Group
+18:00 29 Sep 2016
+
+Eleanor Deal
+Developer, Methods Digital
+eleanor.deal@gmail.com
+@unoxymoronic
+
+* Background
+
+I was a developer for 6 months before I first saw Go.
+
+Some experience with Perl, Java and non-blocking web applications.
+
+I was sold on Go fairly quickly.
+
+But I'm only a single developer.
+
+* Management
+
+* Simple requirements
+
+Different organizations have different levels of analysis and abstraction.
+
+This can often lead to technical decisions being made too far up the chain and management coming with what they think are simple goals.
+
+'We just need to...'
+
+- handle more traffic
+- scale
+- be concurrent
+
+* Complex implementation
+
+Of course more users often means happy managers.
+
+But to them concurrency may still be just a word.
+
+The complexity behind it is completely lost on people who have never had to struggle with it's implementation. 
+
+: A lot of managers may have some technical background, but maybe havent wrangled with these big new challenges - Go is readible to these people.
+: Go helps by simplifying these concepts - easier to implement and also easy to show how quickly they become complex.
+
+* Concurrency Demo (1/3)
+
+.code people/not-concurrent/not-concurrent.go /START OMIT/,/END OMIT/
+
+	% go run not-concurrent.go 
+	2016/09/25 17:25:00 Total time:  20.034316137s
+
+* Concurrency Demo (2/3)
+
+.code people/concurrent-no-wait/concurrent-no-wait.go /START OMIT/,/END OMIT/
+	% go run concurrent-no-wait.go 
+	2016/09/25 17:25:39 Total time:  9.115µs
+
+* Concurrency Demo (3/3)
+
+.code people/concurrent-wait-group/concurrent-wait-group.go /START OMIT/,/END OMIT/
+	% go run concurrent-wait-group.go 
+	2016/09/25 17:28:13 Total time:  2.001375872s
+
+* Solution: Language design 
+
+: Lucky for us, Go is designed to simplify concepts wherever possible. 
+
+'No idea went into Go until it had been simplified to its essence'
+.caption [[https://blog.golang.org/open-source][Go, Open Source, Community]] by Russ Cox 
+
+: Significant investment has gone in to making the Go tooling exeptional
+
+- Concurrency
+- Testing
+- Benchmarking
+- Profiling
+
+Managers see metrics and pretty graphs.
+
+Developers see endless headaches.
+
+But they are all incredibly simplified in Go out of the box.
+
+: This can reduce fear that code will become callback hell or spaghetti nightmare.
+: Bridging this gap between developer capacity and management expectations without a lot of boilerplate is something I believe was sorely lacking.
+
+* Language Velocity
+
+The language releases new versions every 6 months and the very active community means bugs get fixed quickly
+
+Go1.7	- Aug 15
+Go1.7.1	- Sep 7
+
+: Go community answer questions very quickly 
+: As Carlisia pointed out in her talk - so much of this is one-on-one - direct support from the makers themselves
+.image people/carlisia-slack-stats.png 300 300
+.caption [[https://www.youtube.com/watch?v=ImF_jDpjFNw][GoUK16 Keynote: GoBridge and the Go Community]] by Carlisia Campos
+
+: Go has the weight of Google's investment but the flexibility and agility of a community truly devoted to its success.
+
+* Developer Velocity
+
+Most programmers can become useful in Go in days rather than months.
+
+: Idiomatic no frameworks just learn the language 
+: Not java and spring and hibernate and everything else
+
+Go's size has a lot to do with this.
+
+- Easy to get new starters up to speed
+- Quick for developers to integrate with new libraries or projects
+- Less costly to context switch
+
+Write idiomatic Go and anyone who can read Go should be able to make sense of your project fairly easily.
+
+: Ramp up is such a cost to an organization, this is a really undersold point of the language.
+
+* Developers
+
+* Developer Community
+
+: I'm fairly happy that Go is good for development - but does it solve any issues for a group of developers
+
+Very few of us work in complete isolation.
+
+Go prioritizes a few things which make developing in a group a bit less of a headache.
+
+- Clear, concise code
+: This idiomatic thing was mentioned earlier - suddenly dev and management are both valuing code quality heh?
+- Documentation
+: Documentation doesn't just help people onboarding with your code, it also forces you to think about whether your code is consice, clean and well named.
+
+: Now rather than having discussion on which checkstyle rules you want or where you should upper case, you only have to decide to use 'go fmt'
+
+The Go community has strong consensus on a lot of things and much is enforced by the tooling.
+
+* Operations
+: Lets not get into a naming discussion - I dont care how your teams are divided, all code needs to be able to deploy and issues will need to be handled.
+
+* Support
+
+Well written code should be easy to read through and understand packages quickly.
+
+Go binaries allow for converting key portions of code into utilities without huge rewrites.
+
+Take that code from earlier...
+
+.code people/without-flags/without-flags.go /START OMIT/,/END OMIT/
+
+* Add some flags and you've got a script
+
+.code people/with-flags/with-flags.go /START OMIT/,/END OMIT/
+	% go run with-flags.go -seconds=5
+	2016/09/28 20:08:12 Total time:  50.036057625s
+: Could then go install and just have the utility 
+
+* Devops
+
+So many of the current build and deployment tools are written in Go
+
+- Kubernetes
+- Prometheus
+- etcd
+- terraform
+
+: Raft protocol that etcd uses, Consul, Docker
+
+"Aligning development and operations on a common toolchain boosted collaboration while dramatically speeding up deployments and reducing errors"
+.caption [[https://puppet.com/blog/what's-best-team-structure-for-devops-success][What's the best team structure for devops success]] by Alanna Brown
+
+: Even if you're going for a NoOps culture - if it's all in the same space its significantly less cognitive burden for the same team to have one language from development all the way through deployment
+
+* HR
+
+This may sound out of place in a tech talk - but maybe it shouldn't.
+
+Rightly or wrongly, developers are stereotyped and tech communities should be setting an example for us to follow within our organizations.
+
+"The Go contirbutors are committed to providing a friendly, safe and welcoming environment for all" 
+.caption [[https://golang.org/conduct][Go Code of Conduct]]
+
+- GoBridge make resources open source because they 'belong to the community'
+- GolangUK Scholarships
+- womenWhoGo tickets to dotGo
+
+* Collaboration is the mother of invention
+
+Overlooking the cliche for just a moment...
+
+Modern development can be challenging enough without everyone speaking a different language.
+
+One tool isn't right for all jobs, but a common frame of reference certainly can't hurt.
+
+Go is designed to scale for humans not just machines.
