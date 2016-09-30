@@ -17,6 +17,8 @@ I was sold on Go fairly quickly.
 
 But I'm only a single developer.
 
+: No developer is an island
+
 * Management
 
 * Simple requirements
@@ -102,8 +104,8 @@ Go1.7.1	- Sep 7
 
 Most programmers can become useful in Go in days rather than months.
 
-: Idiomatic no frameworks just learn the language 
-: Not java and spring and hibernate and everything else
+: Idiomatic - no frameworks just learn the language
+: Eg not java + spring + hibernate + kitchen sink
 
 Go's size has a lot to do with this.
 
@@ -119,7 +121,7 @@ Write idiomatic Go and anyone who can read Go should be able to make sense of yo
 
 * Developer Community
 
-: I'm fairly happy that Go is good for development - but does it solve any issues for a group of developers
+: I'm fairly happy that Go is good A developer - but does it solve any issues for a group of developers
 
 Very few of us work in complete isolation.
 
@@ -181,7 +183,7 @@ Rightly or wrongly, developers are stereotyped and tech communities should be se
 
 - GoBridge make resources open source because they 'belong to the community'
 - GolangUK Scholarships
-- womenWhoGo tickets to dotGo
+- womenWhoGo
 
 * Collaboration is the mother of invention
 
