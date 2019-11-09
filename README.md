@@ -14,6 +14,7 @@
 
 3. [Lessons from 5 years as a woman in tech](https://docs.google.com/presentation/d/1yaN10EHZcsxo-IXNr2faFGaURnnLQQ_AnKBJcNciH0s/edit?usp=sharing)
     - Women in Tech Cymru - April 13 2019
+    - [Devfest Cardiff](https://docs.google.com/presentation/d/1eaZ3B_p-XkJzwUE8kS9GWC4eX6X7Fv5aHEqBy4irkOQ/edit?usp=sharing) - Nov 8 2019
 
 
 4. [Patch your Go knowledge](https://docs.google.com/presentation/d/1neISd8PMcF8yvB3KHsMoR_J5M18DVd1IujtOii9MJHs/edit?usp=sharing)
