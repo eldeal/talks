@@ -20,3 +20,6 @@
 4. [Patch your Go knowledge](https://docs.google.com/presentation/d/1neISd8PMcF8yvB3KHsMoR_J5M18DVd1IujtOii9MJHs/edit?usp=sharing)
     - Cardiff Go Meetup - June 27 2019
     - ONS internal community of practice - July 2019
+
+5. [Inclusive Hiring](https://docs.google.com/presentation/d/1Ap6tx3a73iFVuwIJxTRoF8XK5OsfnNs27DfYORsm5EM/edit?usp=sharing)
+    - Cambridge Women in Technology - April 2021
