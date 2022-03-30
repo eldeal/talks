@@ -23,3 +23,6 @@
 
 5. [Inclusive Hiring](https://docs.google.com/presentation/d/1Ap6tx3a73iFVuwIJxTRoF8XK5OsfnNs27DfYORsm5EM/edit?usp=sharing)
     - Cambridge Women in Technology - April 2021
+
+6. [International Womens Day #BreakTheBias Panel](https://www.youtube.com/watch?v=kQGLDR5zKMI)
+    - AWS South Wales - March 2022
