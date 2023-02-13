@@ -26,3 +26,6 @@
 
 6. [International Womens Day #BreakTheBias Panel](https://www.youtube.com/watch?v=kQGLDR5zKMI)
     - AWS South Wales - March 2022
+    
+7. [4 Hiring Biases Women Can Put a Stop To](https://docs.google.com/presentation/d/1oJ6nqe9zc9DMwXQ-o9ClWT9Z6_3x61m5T02R0_s00DE/edit#slide=id.g17e0066cb05_0_5)
+    - Women in Silicon Roundabout - Nov 23 2022
