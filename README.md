@@ -2,7 +2,7 @@
 
 In reverse chronological order by first public presentation (most recent talk subject first)
     
-#### [Powerful Communication for Women in Tech and Science Panel](https://open.spotify.com/episode/4FnbAW9sENAFV3vJZnf9tp)(Podcast)
+#### [Powerful Communication for Women in Tech and Science Panel](https://open.spotify.com/episode/4FnbAW9sENAFV3vJZnf9tp)
 - Power Speaking Live - March 16 2023
 
 #### [4 Hiring Biases Women Can Put a Stop To](https://docs.google.com/presentation/d/1oJ6nqe9zc9DMwXQ-o9ClWT9Z6_3x61m5T02R0_s00DE/edit#slide=id.g17e0066cb05_0_5)
